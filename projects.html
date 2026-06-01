@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects — Noah Adasi</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body><div class="layout">
+<aside class="sidebar" id="sidebar">
+  <img class="avatar" src="assets/profile.jpg" alt="Noah Adasi" onerror="this.style.background='#dcd6cf';this.removeAttribute('src')">
+  <div class="namecard"><div class="name">Noah Adasi</div>
+    <div class="title">Electrical &amp; Electronic Engineer<br>Aspiring PhD Researcher</div>
+    <div class="affil">Ashesi University · Ghana</div></div>
+  <div class="socials">
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">✉</a>
+    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank">in</a>
+    <a href="https://www.youtube.com/@knowledge_centre" target="_blank">▶</a>
+  </div>
+  <ul class="nav">
+    <li><a href="index.html" data-page="index">Home</a></li>
+    <li><a href="research.html" data-page="research">Research</a></li>
+    <li><a href="publications.html" data-page="publications">Publications</a></li>
+    <li><a href="teaching.html" data-page="teaching">Teaching</a></li>
+    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="cv.html" data-page="cv">CV</a></li>
+    <li><a href="contact.html" data-page="contact">Contact</a></li>
+  </ul>
+  <div class="contact-block"><strong>Email</strong><br>
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a></div>
+</aside>
+<button class="menu-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ Menu</button>
+
+<main class="content">
+  <section class="hero reveal" style="border:none;padding:1.4rem 0 1.6rem;display:block">
+    <div class="eyebrow">Projects</div>
+    <h1>Projects</h1>
+  <p class="lead">A curated selection of engineering and research projects. Each card links to the
+    write-up, code, or thesis where available.</p>
+  </section>
+
+  <div class="grid-2 reveal">
+    <div class="card">
+      <h3>ML-Based Electronic Scarecrow</h3>
+      <p>YOLOv8 detector + responsive deterrents trained on a custom rice-farm bird dataset. Final-year capstone.</p>
+      <div class="tag-row"><span>YOLOv8</span><span>Edge AI</span><span>Agritech</span></div>
+      <p style="margin-top:.6rem"><a href="https://air.ashesi.edu.gh/items/57e401b2-ed70-42d6-8a82-6d6cb32ddf86" target="_blank">Thesis</a> · <a href="https://github.com/ADASINOAH/Machine-Learning-Based-Electronic-Scarerow-for-Protecting-Agricultural-yields-Rice-Farm-" target="_blank">Code</a></p>
+    </div>
+
+    <div class="card">
+      <h3>Cooperative Spectrum Sensing (Cognitive Radio)</h3>
+      <p>MATLAB &amp; Python simulations evaluating cooperative sensing for dynamic spectrum access.</p>
+      <div class="tag-row"><span>MATLAB</span><span>Python</span><span>Wireless</span></div>
+    </div>
+
+    <div class="card">
+      <h3>CNN for Option Trading</h3>
+      <p>TensorFlow CNN predicting option outcomes from financial ratios; iterative architecture tuning.</p>
+      <div class="tag-row"><span>TensorFlow</span><span>FinML</span></div>
+    </div>
+
+    <div class="card">
+      <h3>Digital Signal Processing with PCM</h3>
+      <p>Analysis of sampling, quantization, and encoding stages in MATLAB / Simulink with bit-depth optimization.</p>
+      <div class="tag-row"><span>MATLAB</span><span>Simulink</span><span>DSP</span></div>
+    </div>
+
+    <div class="card">
+      <h3>q-Gradient Optimization</h3>
+      <p>Investigated Jackson's derivative for unconstrained global optimization vs. genetic algorithms.</p>
+      <div class="tag-row"><span>Optimization</span><span>Numerical</span></div>
+    </div>
+
+    <div class="card">
+      <h3>7-Segment Digital Clock</h3>
+      <p>Fully functional digital clock circuit using 7-segment display logic — Digital Systems Design.</p>
+      <div class="tag-row"><span>Digital Logic</span><span>Hardware</span></div>
+      <p style="margin-top:.6rem"><a href="http://67.205.187.92/~noah.adasi/" target="_blank">Project page</a></p>
+    </div>
+
+    <div class="card">
+      <h3>3-Phase Automatic Changeover Switch</h3>
+      <p>CAD-based electrical simulation; design and implementation co-authored with team.</p>
+      <div class="tag-row"><span>Power</span><span>CAD</span></div>
+    </div>
+
+    <!-- ===== Add new projects here =====
+    <div class="card">
+      <h3>PROJECT TITLE</h3>
+      <p>One-paragraph description.</p>
+      <div class="tag-row"><span>Tag</span></div>
+      <p style="margin-top:.6rem"><a href="LINK" target="_blank">Code / Paper / Demo</a></p>
+    </div>
+    -->
+  </div>
+
+  <div class="footer">© <span id="yr"></span> Noah Adasi</div>
+</main></div>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body></html>

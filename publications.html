@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publications — Noah Adasi</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body><div class="layout">
+<aside class="sidebar" id="sidebar">
+  <img class="avatar" src="assets/profile.jpg" alt="Noah Adasi" onerror="this.style.background='#dcd6cf';this.removeAttribute('src')">
+  <div class="namecard"><div class="name">Noah Adasi</div>
+    <div class="title">Electrical &amp; Electronic Engineer<br>Aspiring PhD Researcher</div>
+    <div class="affil">Ashesi University · Ghana</div></div>
+  <div class="socials">
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">✉</a>
+    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank">in</a>
+    <a href="https://www.youtube.com/@knowledge_centre" target="_blank">▶</a>
+  </div>
+  <ul class="nav">
+    <li><a href="index.html" data-page="index">Home</a></li>
+    <li><a href="research.html" data-page="research">Research</a></li>
+    <li><a href="publications.html" data-page="publications">Publications</a></li>
+    <li><a href="teaching.html" data-page="teaching">Teaching</a></li>
+    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="cv.html" data-page="cv">CV</a></li>
+    <li><a href="contact.html" data-page="contact">Contact</a></li>
+  </ul>
+  <div class="contact-block"><strong>Email</strong><br>
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a></div>
+</aside>
+<button class="menu-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ Menu</button>
+
+<main class="content">
+  <section class="hero reveal" style="border:none;padding:1.4rem 0 1.6rem;display:block">
+    <div class="eyebrow">Publications</div>
+    <h1>Publications &amp; Presentations</h1>
+  <p class="lead">A growing list of peer-reviewed work, conference presentations, and undergraduate research outputs.
+    <!-- Once available, link your Scholar:
+    Visit my <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a> for the full list.
+    --></p>
+  </section>
+
+  <h2>Conference Papers &amp; Presentations</h2>
+  <ul class="pub-list reveal">
+    <li>
+      <div class="pub-title">Signal Processing for AI Privacy in Machine Learning: Input-First Quantization-Based Training Technique</div>
+      <div class="pub-meta">N. Adasi. <em>British Conference of Undergraduate Research (BCUR 2026)</em>, Glasgow, UK — Oral.</div>
+      <div class="pub-tags"><span>Oral</span><span>Privacy</span><span>DSP</span></div>
+    </li>
+    <li>
+      <div class="pub-title">Machine Learning-Based Electronic Scarecrows for Protecting Agricultural Yields from Predator Damage</div>
+      <div class="pub-meta">N. Adasi. <em>British Conference of Undergraduate Research (BCUR 2026)</em>, Glasgow, UK — Oral.</div>
+      <div class="pub-tags"><span>Oral</span><span>YOLOv8</span><span>Agritech</span></div>
+    </li>
+    <li>
+      <div class="pub-title">Assessing the Quality of Treated Drinking Water in Galamsey-Affected Areas in Ghana</div>
+      <div class="pub-meta">N. Adasi. <em>Council on Undergraduate Research (CUR 2026)</em>, Richmond, VA, USA — Accepted Presenter.</div>
+      <div class="pub-tags"><span>Public Health</span><span>Data</span></div>
+    </li>
+    <li>
+      <div class="pub-title">The Role of Climate Finance in Developing Countries: A Comprehensive Analysis of Multilateral and Blended Climate Finance for Adaptation in Africa</div>
+      <div class="pub-meta">N. Adasi. <em>Council on Undergraduate Research (CUR 2026)</em>, Richmond, VA, USA — Accepted Presenter.</div>
+      <div class="pub-tags"><span>Climate</span><span>Policy</span></div>
+    </li>
+  </ul>
+
+  <h2>Technical Reports / Working Papers</h2>
+  <ul class="pub-list reveal">
+    <li>
+      <div class="pub-title">Design and Implementation of a Three-Phase Automatic Changeover Switch Using CAD Electrical Simulation</div>
+      <div class="pub-meta">A. Afriyie, E. Aho, D. Kuuchi, W. Osei, &amp; <strong>N. Adasi</strong>.</div>
+      <div class="pub-tags"><span>Power</span><span>CAD</span></div>
+    </li>
+  </ul>
+
+  <!-- ===== Template for future journal/conference entries (uncomment & fill) =====
+  <h2>Journal Articles</h2>
+  <ul class="pub-list reveal">
+    <li>
+      <div class="pub-title">Paper title</div>
+      <div class="pub-meta">Author list. <em>Journal name</em>, vol(issue):pp, Year. <a href="DOI_LINK">DOI</a> · <a href="PDF_LINK">PDF</a> · <a href="CODE_LINK">Code</a></div>
+      <div class="pub-tags"><span>Tag</span></div>
+    </li>
+  </ul>
+  -->
+
+  <div class="footer">© <span id="yr"></span> Noah Adasi</div>
+</main></div>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body></html>
