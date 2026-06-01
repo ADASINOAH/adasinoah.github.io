@@ -201,3 +201,8 @@ code{background:var(--surface);padding:.1em .35em;border-radius:4px;font-size:.9
   .ribbon{grid-template-columns:1fr}
   h1{font-size:2rem}
 }
+
+p {
+    text-align: justify;
+    hyphens: auto; /* Automatically breaks long words at the end of a line if needed */
+}
