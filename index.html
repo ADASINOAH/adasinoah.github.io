@@ -16,7 +16,6 @@
 </head>
 <body>
 <div class="layout">
-
 <!-- ====== SIDEBAR (keep in sync with _sidebar.html on every page) ====== -->
 <aside class="sidebar" id="sidebar">
   <img class="avatar" src="assets/profile.jpg" alt="Noah Adasi" onerror="this.style.background='#dcd6cf';this.removeAttribute('src')">
@@ -50,10 +49,8 @@
   </div>
 </aside>
 <button class="menu-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ Menu</button>
-
 <!-- ====== MAIN CONTENT ====== -->
 <main class="content">
-
   <!-- HERO -->
   <section class="hero reveal">
     <div>
@@ -62,7 +59,7 @@
       <p class="lead">
         Electrical &amp; Electronic Engineer, <strong>MasterCard Foundation Scholar</strong>,
         and aspiring PhD/MSc researcher working at the intersection of
-        <strong>signal processing</strong>, <strong>5G/6G telecommunications</strong>,
+        <strong>power systems &amp; control</strong>, <strong>signal processing</strong>,
         and <strong>privacy-preserving machine learning</strong>.
       </p>
       <div class="cta-row">
@@ -74,7 +71,6 @@
     <img class="hero-photo" src="assets/profile.jpg" alt="Portrait of Noah Adasi"
          onerror="this.style.background='linear-gradient(135deg,#e6e0d3,#cdbfa5)';this.removeAttribute('src')">
   </section>
-
   <!-- STATS -->
   <section class="stats reveal" aria-label="At a glance">
     <div class="stat"><span class="num">6+</span><span class="lbl">Courses TA'd</span></div>
@@ -82,40 +78,45 @@
     <div class="stat"><span class="num">10+</span><span class="lbl">Research Projects</span></div>
     <div class="stat"><span class="num">100+</span><span class="lbl">Students Mentored</span></div>
   </section>
-
   <!-- BIO -->
   <section class="section reveal">
     <h2>About</h2>
     <p>
       I hold a BSc in Electrical &amp; Electronic Engineering from
       <a href="https://ashesi.edu.gh/" target="_blank" rel="noopener">Ashesi University</a> (2024),
-      where I was a MasterCard Foundation Scholar. My final-year capstone introduced a
-      <strong>YOLOv8-based electronic scarecrow</strong> for protecting rice farms from predator birds,
-      combining computer vision with low-cost hardware deterrents.
+      where I was a MasterCard Foundation Scholar. My work sits at the intersection of power systems,
+      signal processing, and machine learning.
     </p>
     <p>
-      I currently serve as a <strong>Teaching Assistant</strong> at Ashesi for graduate and undergraduate
-      courses in Signals &amp; Systems, Communication Systems, and Digital Signal Processing, and as a
-      <strong>GRE / GMAT / SAT Mathematics Lecturer</strong> at EducationUSA, ACE Consult Ltd. I'm also an
-      <strong>AI for Health Research Fellow</strong> with the African Leadership Academy, studying treated
-      drinking-water quality in galamsey-affected communities of Ghana.
+      My final-year capstone developed a <strong>YOLOv8-based electronic scarecrow</strong> that combines
+      computer vision with low-cost electromechanical deterrents for agricultural protection. I have also
+      worked on microgrid control, three-phase automatic changeover systems, cooperative spectrum sensing,
+      digital signal processing (PCM), and privacy-preserving techniques for machine learning models.
+    </p>
+    <p>
+      I currently serve as a <strong>Teaching &amp; Research Assistant</strong> at Ashesi University for
+      graduate and undergraduate courses in Signals &amp; Systems, Digital Signal Processing, Communication
+      Systems, and Mechatronics. In parallel, I lecture GRE/GMAT/SAT Mathematics at EducationUSA and work
+      as an <strong>AI for Health Research Fellow</strong> with the African Leadership Academy, investigating
+      water quality in galamsey-affected communities in Ghana.
     </p>
     <p>
       Outside the lab I led the <strong>Galaxy Space Campus Network</strong> at Ashesi as president,
       facilitated workshops and STEM outreach, and founded <strong>NPath Foundation</strong>, a non-profit
-      supporting underprivileged students. I am preparing to begin doctoral studies and welcome
-      collaborations with research groups working on applied signal processing for trustworthy ML and
+      supporting underprivileged students. I am actively seeking PhD opportunities in power systems,
+      control of distributed energy resources, signal processing for trustworthy machine learning, and
       next-generation wireless systems.
     </p>
-    <!-- Once published, link Google Scholar:
-    <p>See my <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a> profile.</p>
-    -->
   </section>
-
   <!-- RESEARCH HIGHLIGHTS -->
   <section class="section reveal">
     <h2>Research Highlights</h2>
     <div class="grid-3">
+      <div class="card">
+        <h3>Power Systems &amp; Microgrids</h3>
+        <p>Design and control of micro power grids, three-phase automatic changeover systems, and modeling of electrical machines and power converters.</p>
+        <div class="tag-row"><span>Power</span><span>Control</span></div>
+      </div>
       <div class="card">
         <h3>Signal Processing for AI Privacy</h3>
         <p>Input-first quantization-based training that limits information leakage from model inputs without sacrificing task utility.</p>
@@ -126,18 +127,15 @@
         <p>Cooperative spectrum sensing and ML-assisted dynamic spectrum access for next-generation wireless.</p>
         <div class="tag-row"><span>Wireless</span><span>5G/6G</span></div>
       </div>
-      <div class="card">
-        <h3>Edge AI for Impact</h3>
-        <p>Lightweight YOLO-family detectors for on-device agritech and AI for public-health applications in Africa.</p>
-        <div class="tag-row"><span>Edge AI</span><span>Africa</span></div>
-      </div>
     </div>
   </section>
-
   <!-- INTERESTS -->
   <section class="section reveal">
     <h2>Research Interests</h2>
     <div class="tag-row">
+      <span>Power Systems &amp; Control</span>
+      <span>Distributed Energy Resources</span>
+      <span>Microgrids</span>
       <span>Signal Processing for ML Privacy</span>
       <span>Input-First Quantization</span>
       <span>5G &amp; 6G Telecommunications</span>
@@ -147,18 +145,19 @@
       <span>AI for Agriculture &amp; Health</span>
     </div>
   </section>
-
   <!-- OPENINGS -->
   <section class="section reveal">
     <h2>Openings &amp; Availability</h2>
     <div class="callout">
       <strong>PhD/MSc Applications (Fall 2026 / 2027):</strong>
       I am actively seeking PhD/MSc opportunities in ECE / Computer Engineering with a focus on
-      signal processing for trustworthy machine learning and next-generation wireless. Please reach
-      out via <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">email</a> if my interests align with your lab.
+      optimization and control of distributed energy resources, microgrids, and resilient power systems,
+      as well as signal processing for trustworthy machine learning and next-generation wireless systems.
+      I am also passionate about using my engineering skills to support education, STEM development,
+      and research that creates broader societal impact.
+      Please reach out via <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">email</a> if my interests align with your lab.
     </div>
   </section>
-
   <!-- NEWS -->
   <section class="section reveal">
     <h2>Recent News</h2>
@@ -173,7 +172,6 @@
       -->
     </ul>
   </section>
-
   <!-- LEADERSHIP / IMPACT -->
   <section class="section reveal">
     <h2>Leadership &amp; Impact</h2>
@@ -192,7 +190,6 @@
       </div>
     </div>
   </section>
-
   <div class="footer">© <span id="yr"></span> Noah Adasi · Built with care · <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener">Source on GitHub</a></div>
 </main>
 </div>
