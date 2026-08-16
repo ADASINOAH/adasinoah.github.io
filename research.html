@@ -30,41 +30,39 @@
     <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a></div>
 </aside>
 <button class="menu-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ Menu</button>
-
 <main class="content">
   <section class="hero reveal" style="border:none;padding:1.4rem 0 1.6rem;display:block">
     <div class="eyebrow">Research</div>
     <h1>Research</h1>
-  <p class="lead">My research applies signal processing tools - quantization, transforms, noise modeling - to
-    improve the <em>privacy</em>, <em>efficiency</em>, and <em>robustness</em> of machine-learning systems
-    deployed in the real world.</p>
+  <p class="lead">My research sits at the intersection of <strong>power systems &amp; control</strong>,
+    <strong>signal processing</strong>, and <strong>machine learning</strong>. I apply signal processing
+    tools — quantization, transforms, and noise modeling — together with control and optimization methods
+    to improve the privacy, efficiency, robustness, and real-world impact of intelligent systems.</p>
   </section>
-
   <h2>Current Focus Areas</h2>
   <div class="grid-2 reveal">
+    <div class="card">
+      <h3>Power Systems &amp; Microgrids</h3>
+      <p>Design and control of micro power grids, three-phase automatic changeover systems, electrical machines, and power converters for resilient energy systems.</p>
+      <div class="tag-row"><span>Power</span><span>Control</span><span>Microgrids</span></div>
+    </div>
     <div class="card">
       <h3>Signal Processing for AI Privacy</h3>
       <p>Input-first quantization-based training that limits information leakage from model inputs without sacrificing task utility.</p>
       <div class="tag-row"><span>Quantization</span><span>Privacy</span><span>DSP</span></div>
     </div>
     <div class="card">
-      <h3>Edge AI for Agriculture</h3>
-      <p>Lightweight YOLO-family detectors for on-device bird/pest classification on smallholder farms.</p>
-      <div class="tag-row"><span>YOLOv8</span><span>Edge</span><span>Agritech</span></div>
-    </div>
-    <div class="card">
       <h3>Cognitive Radio &amp; Spectrum Sensing</h3>
-      <p>Cooperative spectrum-sensing algorithms (MATLAB / Python) for dynamic spectrum access.</p>
-      <div class="tag-row"><span>Wireless</span><span>Cognitive Radio</span></div>
+      <p>Cooperative spectrum-sensing algorithms (MATLAB / Python) for dynamic spectrum access in next-generation wireless systems.</p>
+      <div class="tag-row"><span>Wireless</span><span>Cognitive Radio</span><span>5G/6G</span></div>
     </div>
     <div class="card">
-      <h3>AI for Health in Africa</h3>
-      <p>Assessing treated drinking-water quality in galamsey-affected regions of Ghana (ALA Fellowship).</p>
-      <div class="tag-row"><span>Public Health</span><span>Data Science</span></div>
+      <h3>Edge AI for Agriculture &amp; Health</h3>
+      <p>Lightweight YOLO-family detectors for on-device agritech applications and data-driven assessment of water quality in galamsey-affected regions.</p>
+      <div class="tag-row"><span>YOLOv8</span><span>Edge AI</span><span>Impact</span></div>
     </div>
   </div>
-
-  <h2>Selected Ongoing Projects</h2>
+  <h2>Selected Ongoing &amp; Recent Projects</h2>
   <ul class="timeline reveal">
     <li>
       <div class="when">Oct 2024 – Mar 2025 · African Leadership Academy</div>
@@ -80,6 +78,11 @@
       </div>
     </li>
     <li>
+      <div class="when">2023 – 2024</div>
+      <div class="what">Three-Phase Automatic Changeover Switch &amp; Microgrid Control</div>
+      <div class="where">Design and implementation of automatic power transfer systems and exploration of hierarchical microgrid control architectures.</div>
+    </li>
+    <li>
       <div class="when">Jun 2024 – Jul 2024</div>
       <div class="what">Cooperative Spectrum Sensing in Cognitive Radio</div>
       <div class="where">MATLAB &amp; Python simulations of dynamic spectrum management.</div>
@@ -90,12 +93,10 @@
       <div class="where">TensorFlow CNN trained on financial ratios for default probability.</div>
     </li>
   </ul>
-
   <!-- ====== Add new research thrusts as you start your PhD ======
   <h2>PhD Research (placeholder)</h2>
   <p>Brief description of your dissertation topic, advisor, and lab.</p>
   -->
-
   <div class="footer">© <span id="yr"></span> Noah Adasi</div>
 </main></div>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
