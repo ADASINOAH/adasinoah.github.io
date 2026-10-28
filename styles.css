@@ -210,3 +210,7 @@ code{background:var(--surface);padding:.1em .35em;border-radius:4px;font-size:.9
 .pub-tags span.status.published{background:#eaf3ec;color:#1f6b3a;border-color:#c9e2d0}
 .reasons{padding-left:1.2rem;margin:.4rem 0 0}
 .reasons li{margin-bottom:.6rem}
+
+/* Justified paragraphs (hyphenation keeps the spacing even on narrow screens) */
+p, .timeline .where, .pub-meta, .ribbon .item .v{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto}
+.card .card-link, .card .card-sub{text-align:left;hyphens:manual}
