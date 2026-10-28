@@ -214,3 +214,11 @@ code{background:var(--surface);padding:.1em .35em;border-radius:4px;font-size:.9
 /* Justified paragraphs (hyphenation keeps the spacing even on narrow screens) */
 p, .timeline .where, .pub-meta, .ribbon .item .v{text-align:justify;text-justify:inter-word;-webkit-hyphens:auto;hyphens:auto}
 .card .card-link, .card .card-sub{text-align:left;hyphens:manual}
+
+/* Hero buttons: compact enough for four on one line */
+.cta-row{gap:.45rem}
+.cta-row .btn{padding:.55rem .9rem;font-size:.86rem}
+.cta-row .btn.small{padding:.55rem .8rem;font-size:.82rem}
+@media (min-width: 981px){
+  .hero{grid-template-columns:1.8fr .8fr;gap:2rem}
+}
