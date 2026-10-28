@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Noah Adasi - Engineer · Researcher · Educator</title>
-<meta name="description" content="Noah Adasi, Electrical & Electronic Engineer, MasterCard Foundation Scholar, and aspiring PhD/MSc researcher in signal processing, 5G/6G, and privacy-preserving AI.">
+<title>Noah Adasi</title>
+<meta name="description" content="Noah Adasi is an electrical and electronic engineer, researcher and teacher at Ashesi University in Ghana.">
 <meta name="author" content="Noah Adasi">
-<meta property="og:title" content="Noah Adasi, Engineer · Researcher · Educator">
-<meta property="og:description" content="Signal processing, 5G/6G, and privacy-preserving AI. Teaching, research, and social impact from Ghana.">
+<meta property="og:title" content="Noah Adasi">
+<meta property="og:description" content="Noah Adasi is an electrical and electronic engineer, researcher and teacher at Ashesi University in Ghana.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="assets/profile.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,28 +17,25 @@
 </head>
 <body>
 <div class="layout">
-<!-- ====== SIDEBAR (keep in sync with _sidebar.html on every page) ====== -->
 <aside class="sidebar" id="sidebar">
   <img class="avatar" src="assets/profile.jpg" alt="Noah Adasi" onerror="this.style.background='#dcd6cf';this.removeAttribute('src')">
   <div class="namecard">
     <div class="name">Noah Adasi</div>
-    <div class="title">Electrical &amp; Electronic Engineer<br>Aspiring PhD/MSc Researcher</div>
+    <div class="title">Electrical &amp; Electronic Engineer<br>Teaching &amp; Research Assistant</div>
     <div class="affil">Ashesi University · Ghana</div>
   </div>
   <div class="socials">
-    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh" title="Email">✉</a>
-    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank" rel="noopener" title="LinkedIn">in</a>
-    <a href="https://www.youtube.com/@knowledge_centre" target="_blank" rel="noopener" title="YouTube">▶</a>
-    <!-- <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" title="Google Scholar">GS</a> -->
-    <!-- <a href="https://github.com/ADASINOAH" target="_blank" title="GitHub">GH</a> -->
-    <!-- <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" title="ORCID">iD</a> -->
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh" title="Email" aria-label="Email">✉</a>
+    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">in</a>
+    <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">GH</a>
+    <a href="https://www.youtube.com/@knowledge_centre" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube">▶</a>
   </div>
   <ul class="nav">
     <li><a href="index.html" data-page="index">Home</a></li>
     <li><a href="research.html" data-page="research">Research</a></li>
     <li><a href="publications.html" data-page="publications">Publications</a></li>
     <li><a href="teaching.html" data-page="teaching">Teaching</a></li>
-    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="projects.html" data-page="projects">Projects &amp; Ventures</a></li>
     <li><a href="cv.html" data-page="cv">CV</a></li>
     <li><a href="contact.html" data-page="contact">Contact</a></li>
   </ul>
@@ -49,163 +47,115 @@
   </div>
 </aside>
 <button class="menu-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ Menu</button>
-<!-- ====== MAIN CONTENT ====== -->
 <main class="content">
   <!-- HERO -->
   <section class="hero reveal">
     <div>
-      <div class="eyebrow">Welcome</div>
+      <div class="eyebrow">Engineer · Researcher · Teacher</div>
       <h1>Hello, I'm <span class="accent">Noah Adasi.</span></h1>
       <p class="lead">
-        I use engineering, computation, and research to understand and improve complex systems, from <strong>renewable energy</strong> and <strong>power networks</strong> to <strong>communication</strong> and <strong>machine-learning applications</strong>. I am an Electrical and Electronic Engineer, <strong>Mastercard Foundation Scholars Alumni</strong>, preparing for graduate study in <strong>electrical and computer engineering</strong> and related interdisciplinary fields.
+        I'm an electrical and electronic engineer and a Teaching and Research Assistant at
+        <a href="https://ashesi.edu.gh/" target="_blank" rel="noopener">Ashesi University</a> in Ghana.
+        I grew up in a farming village in Ahafo and was the first in my extended family to earn a university degree.
+        Today I teach engineering students, do research, help build two young companies, and mentor students
+        who come from places like mine.
       </p>
       <div class="cta-row">
         <a class="btn" href="assets/Noah_Adasi_CV.pdf" target="_blank">⬇ Download CV</a>
-        <a class="btn ghost" href="mailto:noah.adasi@alumni.ashesi.edu.gh">✉ Get in touch</a>
-        <a class="btn ghost" href="research.html">View Research →</a>
+        <a class="btn ghost" href="publications.html">Publications →</a>
+        <a class="btn ghost" href="contact.html">Get in touch</a>
       </div>
     </div>
     <img class="hero-photo" src="assets/profile.jpg" alt="Portrait of Noah Adasi"
          onerror="this.style.background='linear-gradient(135deg,#e6e0d3,#cdbfa5)';this.removeAttribute('src')">
   </section>
+
   <!-- STATS -->
   <section class="stats reveal" aria-label="At a glance">
-    <div class="stat"><span class="num">6+</span><span class="lbl">Courses TA'd</span></div>
-    <div class="stat"><span class="num">4</span><span class="lbl">Conf. Contributions</span></div>
-    <div class="stat"><span class="num">10+</span><span class="lbl">Research Projects</span></div>
-    <div class="stat"><span class="num">200+</span><span class="lbl">Students Mentored</span></div>
+    <div class="stat"><span class="num">5</span><span class="lbl">Research papers</span></div>
+    <div class="stat"><span class="num">6+</span><span class="lbl">Courses as TA</span></div>
+    <div class="stat"><span class="num">64+</span><span class="lbl">Students supported</span></div>
+    <div class="stat"><span class="num">2</span><span class="lbl">Ventures co-founded</span></div>
   </section>
-  <!-- BIO -->
+
+  <!-- ABOUT -->
   <section class="section reveal">
     <h2>About</h2>
     <p>
-      I hold a BSc in Electrical &amp; Electronic Engineering from
-      <a href="https://ashesi.edu.gh/" target="_blank" rel="noopener">Ashesi University</a> (2024),
-      where I was a MasterCard Foundation Scholar. My work sits at the intersection of power systems,
-      signal processing, and machine learning.
+      I studied Electrical and Electronic Engineering at Ashesi University as a Mastercard Foundation Scholar
+      and graduated in 2024. Since then I have stayed on as a Teaching and Research Assistant. I support graduate
+      and undergraduate courses in Signals and Systems, Digital Signal Processing, Communication Systems and
+      Engineering Calculus, and I work on research with faculty in the Engineering department.
     </p>
     <p>
-      My final-year capstone developed a <strong>YOLOv8-based electronic scarecrow</strong> that combines
-      computer vision with low-cost electromechanical deterrents for agricultural protection. I have also
-      worked on microgrid control, three-phase automatic changeover systems, cooperative spectrum sensing,
-      digital signal processing (PCM), and privacy-preserving techniques for machine learning models.
+      I like work that ends in something people can use. My final-year project was a machine learning scarecrow
+      that protects rice farms and runs fully offline on a Raspberry Pi. Since then, I have co-authored papers on
+      wireless channel prediction and FPGA hardware acceleration, and I am exploring how signal processing can
+      protect personal data in AI systems.
     </p>
     <p>
-      I currently serve as a <strong>Teaching &amp; Research Assistant</strong> at Ashesi University for
-      graduate and undergraduate courses in Signals &amp; Systems, Digital Signal Processing, Communication
-      Systems, and Mechatronics. In parallel, I lecture GRE/GMAT/SAT Mathematics at EducationUSA and work
-      as an <strong>AI for Health Research Fellow</strong> with the African Leadership Academy, investigating
-      water quality in galamsey-affected communities in Ghana.
-    </p>
-    <p>
-      Outside the lab I led the <strong>Galaxy Space Campus Network</strong> at Ashesi as president,
-      facilitated workshops and STEM outreach, and founded <strong>NPath Foundation</strong>, a non-profit
-      supporting underprivileged students. I am actively seeking PhD opportunities in power systems,
-      control of distributed energy resources, signal processing for trustworthy machine learning, and
-      next-generation wireless systems.
+      Teaching is a big part of my week. I teach GRE, GMAT and SAT mathematics at EducationUSA in Accra, and I
+      post free engineering lessons on my YouTube channel,
+      <a href="https://www.youtube.com/@knowledge_centre" target="_blank" rel="noopener">The Knowledge Centre</a>.
     </p>
   </section>
-  <!-- RESEARCH HIGHLIGHTS -->
+
+  <!-- WHAT I WORK ON -->
   <section class="section reveal">
-    <h2>Research Highlights</h2>
+    <h2>What I Work On</h2>
     <div class="grid-3">
       <div class="card">
-        <h3>Power Systems &amp; Microgrids</h3>
-        <p>Design and control of micro power grids, three-phase automatic changeover systems, and modeling of electrical machines and power converters.</p>
-        <div class="tag-row"><span>Power</span><span>Control</span></div>
+        <h3>Research</h3>
+        <p>Signal processing and machine learning: privacy in AI training data, channel prediction for wireless systems, and hardware acceleration.</p>
+        <p class="card-link"><a href="research.html">Research →</a></p>
       </div>
       <div class="card">
-        <h3>Signal Processing for AI Privacy</h3>
-        <p>Input-first quantization-based training that limits information leakage from model inputs without sacrificing task utility.</p>
-        <div class="tag-row"><span>Privacy</span><span>DSP</span></div>
+        <h3>Teaching</h3>
+        <p>University courses at Ashesi, test-prep mathematics at EducationUSA, and free video lessons for students anywhere.</p>
+        <p class="card-link"><a href="teaching.html">Teaching →</a></p>
       </div>
       <div class="card">
-        <h3>5G / 6G &amp; Cognitive Radio</h3>
-        <p>Cooperative spectrum sensing and ML-assisted dynamic spectrum access for next-generation wireless.</p>
-        <div class="tag-row"><span>Wireless</span><span>5G/6G</span></div>
+        <h3>Ventures &amp; Community</h3>
+        <p>Clean energy work with HETUS Engineering, affordable test prep with JubileTest, and mentoring through the NPath Foundation.</p>
+        <p class="card-link"><a href="projects.html#ventures">Ventures →</a></p>
       </div>
     </div>
   </section>
-  <!-- INTERESTS -->
-  <section class="section reveal">
-    <h2>Research Interests</h2>
-    <div class="tag-row">
-      <span>Power Systems &amp; Control</span>
-      <span>Distributed Energy Resources</span>
-      <span>Microgrids</span>
-      <span>Signal Processing for ML Privacy</span>
-      <span>Input-First Quantization</span>
-      <span>5G &amp; 6G Telecommunications</span>
-      <span>Cognitive Radio &amp; Spectrum Sensing</span>
-      <span>Edge AI</span>
-      <span>Applied Deep Learning, applied mathematics including modeling, and computational science</span>
-      <span>AI for Agriculture with Climate Change &amp; Health</span>
-    </div>
-  </section>
-  <!-- OPENINGS -->
-  <section class="section reveal">
-    <h2>Openings &amp; Availability</h2>
-    <div class="callout">
-    <strong>PhD/MSc Applications (Spring 2027 &amp; Fall 2027):</strong>
-    I am actively seeking PhD and MSc opportunities in electrical and computer engineering, 
-    computer engineering, applied mathematics, computational science, and related interdisciplinary programs.
-    <br>
-    My broader research interests lie in developing mathematical models, numerical methods, 
-    optimization, control, and signal-processing techniques for complex engineering and cyber-physical systems. 
-    I am particularly interested in:
-    <ul style="margin: 0.6rem 0 0.8rem 1.2rem; padding-left: 1rem;">
-      <li>Renewable-energy systems, microgrids, distributed energy resources, and resilient power systems</li>
-      <li>Optimization and control of energy and cyber-physical systems</li>
-      <li>Numerical methods and mathematical modeling for engineering applications</li>
-      <li>Signal processing and trustworthy machine learning</li>
-      <li>Next-generation wireless and communication systems</li>
-    </ul>
-    Across these areas, I am interested in using computational and data-driven methods to improve 
-    the reliability, security, sustainability, and social impact of engineering systems. 
-    I am also passionate about STEM education, climate resilience, and research that addresses broader societal challenges.
-    <br>
-    Please I will be grateful to connect and will ask for about 15 minutes meetings with you to discuss how well my background aligns with your goal.
-    </div>
 
-    <p>
-       <h3>Research direction</h3>
-      Although my main applications are in electrical and computer engineering, I am open to interdisciplinary research involving applied mathematics, differential-equation modeling, numerical computation, optimization, control, signal processing, and machine learning.
-    </p>
-    
-  </section>
   <!-- NEWS -->
   <section class="section reveal">
     <h2>Recent News</h2>
     <ul class="news-list">
-      <li><span class="date">Apr 2026</span><span>Two works Accepted to present at the <strong>Council on Undergraduate Research (CUR)</strong> in Richmond, Virginia, talks on drinking-water quality in galamsey areas and climate finance in Africa.</span></li>
-      <li><span class="date">Apr 2026</span><span>Two oral presentations at the <strong>British Conference of Undergraduate Research (BCUR 2026)</strong>, Glasgow, UK, including <em>"Signal Processing for AI Privacy: Input-First Quantization-Based Training."</em></span></li>
-      <li><span class="date">Oct 2024</span><span>Joined the <strong>AI for Health Research Fellowship</strong> at African Leadership Academy (South Africa).</span></li>
-      <li><span class="date">Sep 2024</span><span>Began appointment as <strong>Teaching Assistant</strong> at Ashesi University (Mechatronics MSc., DSP, Communications).</span></li>
-      <li><span class="date">Aug 2024</span><span>Graduated <strong>BSc Electrical &amp; Electronic Engineering</strong>, Ashesi University.</span></li>
-      <!-- Add more items as your career grows:
-      <li><span class="date">MMM YYYY</span><span>News item.</span></li>
-      -->
+      <li><span class="date">Oct 2026</span><span>Paper on <em>context-aware neural FIR parameter prediction for OTFS wireless channels</em> accepted at <strong>IEEE ICAST 2026</strong>, Accra.</span></li>
+      <li><span class="date">Sep 2026</span><span>Co-authored paper on an <em>FPGA-based FFT accelerator for UAV image deblurring</em> accepted at <strong>INTCEC 2026</strong>, Chicago.</span></li>
+      <li><span class="date">Apr 2026</span><span>Gave two oral presentations at the <strong>British Conference of Undergraduate Research</strong> in Glasgow, with travel sponsored by Ashesi University.</span></li>
+      <li><span class="date">Apr 2026</span><span>Two works accepted for the <strong>Council on Undergraduate Research</strong> conference in Richmond, Virginia.</span></li>
+      <li><span class="date">Jan 2026</span><span>Co-founded <strong>JubileTest</strong>, a low-cost test prep platform for Ghanaian graduates.</span></li>
+      <li><span class="date">Jul 2025</span><span>Received Ashesi University's <strong>Spot Award for Citizenship</strong>.</span></li>
+      <li><span class="date">Sep 2024</span><span>Started as a <strong>Teaching and Research Assistant</strong> at Ashesi, and joined <strong>HETUS Engineering</strong> as co-founder.</span></li>
+      <li><span class="date">Aug 2024</span><span>Graduated with a <strong>BSc in Electrical and Electronic Engineering</strong> from Ashesi University.</span></li>
     </ul>
   </section>
-  <!-- LEADERSHIP / IMPACT -->
+
+  <!-- BEYOND THE LAB -->
   <section class="section reveal">
-    <h2>Leadership &amp; Impact</h2>
+    <h2>Beyond the Lab</h2>
     <div class="ribbon">
       <div class="item">
-        <div class="k">NPath Foundation, Founder</div>
-        <div class="v">Non-profit supporting underprivileged students with mentorship and educational resources.</div>
+        <div class="k">NPath Foundation</div>
+        <div class="v">I founded NPath in 2023 to mentor bright students from rural Ahafo into university.</div>
       </div>
       <div class="item">
-        <div class="k">Galaxy Space Campus Network, President</div>
-        <div class="v">Led Ashesi University's chapter; ran STEM workshops and outreach programmes.</div>
+        <div class="k">STEM for All</div>
+        <div class="v">Technical volunteer, assembling the STEM kits that go out to schools.</div>
       </div>
       <div class="item">
-        <div class="k">IEEE Student Member</div>
-        <div class="v">Young Professionals &amp; Signal Processing Society (#100767403).</div>
+        <div class="k">Campus Ambassador</div>
+        <div class="v">Hosting prospective students, families and university guests at Ashesi since 2021.</div>
       </div>
     </div>
   </section>
-  <div class="footer">© <span id="yr"></span> Noah Adasi · Built with care · <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener">Source on GitHub</a></div>
+  <div class="footer">© <span id="yr"></span> Noah Adasi · <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener">GitHub</a></div>
 </main>
 </div>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>

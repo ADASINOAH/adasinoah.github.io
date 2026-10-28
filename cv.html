@@ -1,123 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CV - Noah Adasi</title>
+<meta name="description" content="Noah Adasi is an electrical and electronic engineer, researcher and teacher at Ashesi University in Ghana.">
+<meta name="author" content="Noah Adasi">
+<meta property="og:title" content="CV - Noah Adasi">
+<meta property="og:description" content="Noah Adasi is an electrical and electronic engineer, researcher and teacher at Ashesi University in Ghana.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body><div class="layout">
+<body>
+<div class="layout">
 <aside class="sidebar" id="sidebar">
   <img class="avatar" src="assets/profile.jpg" alt="Noah Adasi" onerror="this.style.background='#dcd6cf';this.removeAttribute('src')">
-  <div class="namecard"><div class="name">Noah Adasi</div>
-    <div class="title">Electrical &amp; Electronic Engineer<br>Aspiring PhD Researcher</div>
-    <div class="affil">Ashesi University · Ghana</div></div>
+  <div class="namecard">
+    <div class="name">Noah Adasi</div>
+    <div class="title">Electrical &amp; Electronic Engineer<br>Teaching &amp; Research Assistant</div>
+    <div class="affil">Ashesi University · Ghana</div>
+  </div>
   <div class="socials">
-    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">✉</a>
-    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank">in</a>
-    <a href="https://www.youtube.com/@knowledge_centre" target="_blank">▶</a>
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh" title="Email" aria-label="Email">✉</a>
+    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">in</a>
+    <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">GH</a>
+    <a href="https://www.youtube.com/@knowledge_centre" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube">▶</a>
   </div>
   <ul class="nav">
     <li><a href="index.html" data-page="index">Home</a></li>
     <li><a href="research.html" data-page="research">Research</a></li>
     <li><a href="publications.html" data-page="publications">Publications</a></li>
     <li><a href="teaching.html" data-page="teaching">Teaching</a></li>
-    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="projects.html" data-page="projects">Projects &amp; Ventures</a></li>
     <li><a href="cv.html" data-page="cv">CV</a></li>
     <li><a href="contact.html" data-page="contact">Contact</a></li>
   </ul>
-  <div class="contact-block"><strong>Email</strong><br>
-    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a></div>
+  <div class="contact-block">
+    <strong>Email</strong><br>
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a><br><br>
+    <strong>Office</strong><br>
+    Ashesi University<br>1 University Avenue,<br>Berekuso, Ghana
+  </div>
 </aside>
 <button class="menu-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ Menu</button>
 <main class="content">
   <section class="hero reveal" style="border:none;padding:1.4rem 0 1.6rem;display:block">
     <div class="eyebrow">Curriculum Vitae</div>
     <h1>Curriculum Vitae</h1>
-  <p class="lead">
-    <a href="assets/Noah_Adasi_CV.pdf" target="_blank">⬇ Download full CV (PDF)</a>
-  </p>
+    <p class="lead"><a href="assets/Noah_Adasi_CV.pdf" target="_blank">⬇ Download full CV (PDF)</a></p>
   </section>
 
   <h2>Education</h2>
   <ul class="timeline reveal">
     <li>
       <div class="when">Sep 2020 – Aug 2024 · Berekuso, Ghana</div>
-      <div class="what">BSc. Electrical &amp; Electronic Engineering - Ashesi University</div>
-      <div class="where">Thesis: <em>Machine Learning Based Electronic Scarecrows for Protecting Agricultural Yields from Predator Damage</em>. Core areas: Power Engineering, Control Systems, Signal Processing, Communication Systems.</div>
+      <div class="what">BSc Electrical &amp; Electronic Engineering · Ashesi University</div>
+      <div class="where">Second Class Upper. Mastercard Foundation Scholar. Thesis: <em>Machine Learning-Based Electronic Scarecrows for Protecting Agricultural Yields from Predator Damage</em>, supervised by Prof. Hyder Ali Segu Mohamed.</div>
+    </li>
+    <li>
+      <div class="when">Sep 2016 – Jun 2019 · Sunyani, Ghana</div>
+      <div class="what">WASSCE, General Science · Sunyani Senior High School</div>
+      <div class="where">Ghana Cocoa Board Scholarship. National contestant, National Science and Maths Quiz.</div>
     </li>
   </ul>
 
-  <h2>Appointments</h2>
+  <h2>Experience</h2>
   <ul class="timeline reveal">
     <li>
-      <div class="when">Sep 2024 – present (2 years)</div>
-      <div class="what">Teaching &amp; Research Assistant - Ashesi University</div>
-      <div class="where">Graduate Mechatronics (Signals &amp; Systems) and undergraduate courses in Digital Signal Processing, Communication Systems, Advanced Communication Systems, Signals &amp; Systems, and Engineering Calculus. Lead labs, grade assignments, and support faculty research.</div>
+      <div class="when">Sep 2024 – present</div>
+      <div class="what">Teaching &amp; Research Assistant · Ashesi University</div>
+      <div class="where">Research on signal-level privacy for machine learning. TA for graduate Signals and Systems (MSc Mechatronics) and undergraduate DSP, Signals and Systems, Communication Systems, Advanced Communication Systems and Engineering Calculus.</div>
+    </li>
+    <li>
+      <div class="when">Jan 2026 – present</div>
+      <div class="what">Co-Founder · JubileTest</div>
+      <div class="where">Low-cost test prep platform for Ghanaian graduates. In internal testing.</div>
     </li>
     <li>
       <div class="when">Oct 2024 – present</div>
-      <div class="what">Mathematics Lecturer - EducationUSA / ACE Consult Ltd.</div>
-      <div class="where">GRE, GMAT, and SAT Math.</div>
+      <div class="what">GRE, GMAT &amp; SAT Mathematics Lecturer · EducationUSA / ACE Consult Ltd</div>
+    </li>
+    <li>
+      <div class="when">Sep 2024 – present</div>
+      <div class="what">Co-Founder &amp; Director · HETUS Engineering Limited</div>
+      <div class="where">Renewable energy and engineering company founded by Aishetu Abdul Razak.</div>
+    </li>
+    <li>
+      <div class="when">Oct 2024 – Mar 2025</div>
+      <div class="what">AI for Health Research Fellow · African Leadership Academy</div>
     </li>
     <li>
       <div class="when">Oct 2021 – present</div>
-      <div class="what">Campus Ambassador - Ashesi University</div>
+      <div class="what">Campus Ambassador · Ashesi University</div>
     </li>
     <li>
       <div class="when">Jun – Aug 2023</div>
-      <div class="what">Electrical &amp; Electronic Engineering Intern - Jospong Group (Sewerage Systems Ghana Ltd.)</div>
+      <div class="what">Electrical &amp; Electronic Engineering Intern · Sewerage Systems Ghana Ltd (Jospong Group)</div>
     </li>
     <li>
       <div class="when">Jun – Aug 2022 · Kampala, Uganda</div>
-      <div class="what">Educational Research Intern - Musizi University</div>
-    </li>
-    <li>
-      <div class="when">Jul – Sep 2019</div>
-      <div class="what">Mathematics Teacher - Hopeland International School</div>
+      <div class="what">Educational Research Intern · Musizi University</div>
     </li>
   </ul>
 
   <h2>Honors &amp; Awards</h2>
   <ul>
-    <li>MasterCard Foundation Scholars Program Scholarship - Ashesi University (2020–2024)</li>
-    <li>Board Member, Ashesi Student Council Academic Committee (2021–2023)</li>
-    <li>Chairperson, Electoral &amp; Documentation Committee, MasterCard Foundation–Ashesi (2021–2022)</li>
-    <li>National Level Contestant, Ghana National Science &amp; Maths Quiz (2019)</li>
+    <li>Spot Award for Citizenship, Ashesi University (2025)</li>
+    <li>Conference travel sponsorship to BCUR Glasgow, Ashesi University (2026)</li>
+    <li>Mastercard Foundation Scholars Program, Ashesi University (2020–2024)</li>
+    <li>Dean's List, Ashesi University (2022)</li>
+    <li>Global Mentorship Initiative, selected mentee (2023)</li>
+    <li>Ghana Cocoa Board Scholarship (2018–2019)</li>
+    <li>National Science and Maths Quiz, national-level contestant (2019)</li>
   </ul>
 
-  <h2>Certifications</h2>
+  <h2>Leadership</h2>
   <ul>
-    <li>Electric Industry Operations and Markets - Duke University (Coursera, Certificate of Honor)</li>
-    <li>Introduction to Electronics - Georgia Institute of Technology (Coursera, Certificate of Honor)</li>
-    <li>Global Mentorship Initiative (GMI) Program - 2023</li>
+    <li>Founder, NPath Foundation (2023–present)</li>
+    <li>Technical Volunteer, STEM for All</li>
+    <li>Founder &amp; President, Galaxy Space Campus Network, Ashesi University</li>
+    <li>Chairperson, Electoral &amp; Documentation Committee (2021–2022) and Feedback Committee, Mastercard Foundation Scholars at Ashesi</li>
+    <li>Board Member, Student Council Academic Committee, Ashesi University (2021–2023)</li>
   </ul>
 
-  <h2>Technical Skills</h2>
+  <h2>Skills</h2>
   <p>
-    <strong>Programming &amp; Frameworks:</strong> Python, PyTorch, TensorFlow, MATLAB, C#, Scikit-learn<br>
-    <strong>AI / ML / Signal Processing:</strong> Deep Learning, Reinforcement Learning, YOLOv8, Digital Signal Processing, Cooperative Spectrum Sensing<br>
-    <strong>Power &amp; Hardware:</strong> PowerWorld, Proteus, EasyEDA (PCB), Simulink, FPGA accelerators<br>
-    <strong>Tools:</strong> Git/GitHub, Docker, Google Cloud Platform
+    <strong>Programming:</strong> Python, MATLAB/Simulink, C/C++ (Arduino), C#, HTML/CSS<br>
+    <strong>Machine learning:</strong> PyTorch, TensorFlow, scikit-learn, YOLOv8, deployment on edge devices<br>
+    <strong>Hardware &amp; design:</strong> Raspberry Pi, Arduino, FPGA, Proteus, EasyEDA and Eagle (PCB), PowerWorld, SolidWorks<br>
+    <strong>Tools:</strong> Git/GitHub, Docker, Google Cloud Platform<br>
+    <strong>Languages:</strong> English (fluent), Twi (native)
   </p>
 
-  <h2>Professional Affiliations &amp; Leadership</h2>
+  <h2>Memberships</h2>
   <ul>
-    <li>IEEE Student Member (No. 100767403) – Young Professionals &amp; Signal Processing Society</li>
-    <li>Founder &amp; President, Galaxy Space Campus Network (Ashesi University)</li>
-    <li>Founder, NPath Foundation – sustainable community development &amp; education</li>
+    <li>IEEE Student Member (No. 100767403), Signal Processing Society, Young Professionals</li>
   </ul>
-
-  <h2>Research Interests</h2>
-  <p>
-  Computational and data-driven engineering for complex <strong>cyber-physical systems</strong>, with interests in <strong>mathematical modeling</strong>, <strong>numerical methods</strong>, <strong>optimization</strong>, <strong>control</strong>, <strong>signal processing</strong>, <strong>communications</strong>, and <strong>trustworthy machine learning</strong>. Applications include <strong>renewable-energy systems</strong>, <strong>microgrids</strong>, <strong>distributed energy resources</strong>, <strong>power-system protection</strong>, <strong>privacy-preserving machine learning</strong>, <strong>computer vision</strong> for agriculture and surveillance, and <strong>5G/6G communication systems</strong>. I am also interested in applying engineering and computational methods to <strong>STEM education</strong>, <strong>climate resilience</strong>, and broader societal challenges.
-  </p>
 
   <h2>References</h2>
-  <p>Available upon request.</p>
-
-  <div class="footer">© <span id="yr"></span> Noah Adasi</div>
-</main></div>
+  <p>Available on request.</p>
+  <div class="footer">© <span id="yr"></span> Noah Adasi · <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener">GitHub</a></div>
+</main>
+</div>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>

@@ -1,103 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research - Noah Adasi</title>
+<meta name="description" content="Noah Adasi is an electrical and electronic engineer, researcher and teacher at Ashesi University in Ghana.">
+<meta name="author" content="Noah Adasi">
+<meta property="og:title" content="Research - Noah Adasi">
+<meta property="og:description" content="Noah Adasi is an electrical and electronic engineer, researcher and teacher at Ashesi University in Ghana.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body><div class="layout">
+<body>
+<div class="layout">
 <aside class="sidebar" id="sidebar">
   <img class="avatar" src="assets/profile.jpg" alt="Noah Adasi" onerror="this.style.background='#dcd6cf';this.removeAttribute('src')">
-  <div class="namecard"><div class="name">Noah Adasi</div>
-    <div class="title">Electrical &amp; Electronic Engineer<br>Aspiring PhD Researcher</div>
-    <div class="affil">Ashesi University · Ghana</div></div>
+  <div class="namecard">
+    <div class="name">Noah Adasi</div>
+    <div class="title">Electrical &amp; Electronic Engineer<br>Teaching &amp; Research Assistant</div>
+    <div class="affil">Ashesi University · Ghana</div>
+  </div>
   <div class="socials">
-    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">✉</a>
-    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank">in</a>
-    <a href="https://www.youtube.com/@knowledge_centre" target="_blank">▶</a>
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh" title="Email" aria-label="Email">✉</a>
+    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">in</a>
+    <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">GH</a>
+    <a href="https://www.youtube.com/@knowledge_centre" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube">▶</a>
   </div>
   <ul class="nav">
     <li><a href="index.html" data-page="index">Home</a></li>
     <li><a href="research.html" data-page="research">Research</a></li>
     <li><a href="publications.html" data-page="publications">Publications</a></li>
     <li><a href="teaching.html" data-page="teaching">Teaching</a></li>
-    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="projects.html" data-page="projects">Projects &amp; Ventures</a></li>
     <li><a href="cv.html" data-page="cv">CV</a></li>
     <li><a href="contact.html" data-page="contact">Contact</a></li>
   </ul>
-  <div class="contact-block"><strong>Email</strong><br>
-    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a></div>
+  <div class="contact-block">
+    <strong>Email</strong><br>
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a><br><br>
+    <strong>Office</strong><br>
+    Ashesi University<br>1 University Avenue,<br>Berekuso, Ghana
+  </div>
 </aside>
 <button class="menu-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ Menu</button>
 <main class="content">
   <section class="hero reveal" style="border:none;padding:1.4rem 0 1.6rem;display:block">
     <div class="eyebrow">Research</div>
     <h1>Research</h1>
-    <p class="lead">
-        My research interests focus on computational and data-driven engineering for complex <strong>cyber-physical systems</strong>. I am particularly interested in <strong>mathematical modeling</strong>, <strong>numerical methods</strong>, <strong>optimization</strong>, <strong>control</strong>, <strong>signal processing</strong>, <strong>communications</strong>, and <strong>trustworthy machine learning</strong>, with applications in <strong>renewable-energy systems</strong>, <strong>microgrids</strong>, <strong>power-system protection</strong>, and <strong>next-generation communication technologies</strong>. Through these methods, I aim to improve the privacy, reliability, efficiency, resilience, and broader societal impact of intelligent engineering systems.
-      </p>
+    <p class="lead">My research uses signal processing and machine learning to solve practical problems: keeping personal data safe in AI systems, making wireless links more reliable, and building low-cost systems that work in places with little infrastructure. I work with faculty in the Engineering department at Ashesi University.</p>
   </section>
-  <h2>Other Areas</h2>
+
+  <h2>Current Work</h2>
   <div class="grid-2 reveal">
     <div class="card">
-      <h3>Power Systems &amp; Microgrids</h3>
-      <p>Design and control of micro power grids, three-phase automatic changeover systems, electrical machines, and power converters for resilient energy systems.</p>
-      <div class="tag-row"><span>Power</span><span>Control</span><span>Microgrids</span></div>
-    </div>
-    <div class="card">
-      <h3>Signal Processing for AI Privacy</h3>
-      <p>Input-first quantization-based training that limits information leakage from model inputs without sacrificing task utility.</p>
+      <h3>Signal-Level Privacy for Machine Learning</h3>
+      <p>Can data be protected before it ever reaches a model? With Prof. Hyder Ali Segu Mohamed, I am testing input-first quantization as a way to limit what a trained model leaks about its training data, while keeping it accurate.</p>
       <div class="tag-row"><span>Quantization</span><span>Privacy</span><span>DSP</span></div>
     </div>
     <div class="card">
-      <h3>Cognitive Radio &amp; Spectrum Sensing</h3>
-      <p>Cooperative spectrum-sensing algorithms (MATLAB / Python) for dynamic spectrum access in next-generation wireless systems.</p>
-      <div class="tag-row"><span>Wireless</span><span>Cognitive Radio</span><span>5G/6G</span></div>
+      <h3>Neural Channel Prediction for OTFS</h3>
+      <p>Context-aware neural prediction of FIR filter parameters for OTFS-based wireless channels that change over time. Accepted at IEEE ICAST 2026.</p>
+      <div class="tag-row"><span>Wireless</span><span>OTFS</span><span>Deep Learning</span></div>
     </div>
     <div class="card">
-      <h3>Edge AI for Agriculture &amp; Health</h3>
-      <p>Lightweight YOLO-family detectors for on-device agritech applications and data-driven assessment of water quality in galamsey-affected regions.</p>
-      <div class="tag-row"><span>YOLOv8</span><span>Edge AI</span><span>Impact</span></div>
+      <h3>Hardware Acceleration for Imaging</h3>
+      <p>An FPGA-based FFT accelerator for detecting blur and restoring images in UAV surveillance. Co-authored with S. Agudu and S. Armah; accepted at INTCEC 2026.</p>
+      <div class="tag-row"><span>FPGA</span><span>FFT</span><span>Image Processing</span></div>
+    </div>
+    <div class="card">
+      <h3>Edge AI for Agriculture</h3>
+      <p>A YOLOv8 detector running fully offline on a Raspberry Pi 4 to keep birds off rice farms, with 98% detection accuracy. Presented at BCUR 2026 in Glasgow.</p>
+      <div class="tag-row"><span>YOLOv8</span><span>Edge AI</span><span>Agritech</span></div>
     </div>
   </div>
-  <h2>Higlights on Recent Projects</h2>
+
+  <h2>Earlier Research</h2>
   <ul class="timeline reveal">
     <li>
       <div class="when">Oct 2024 – Mar 2025 · African Leadership Academy</div>
       <div class="what">AI for Health Research Fellowship</div>
-      <div class="where">Water-quality assessment in galamsey-affected Ghanaian communities.</div>
+      <div class="where">Assessed the quality of treated drinking water in communities affected by illegal mining (galamsey) in Ghana.</div>
     </li>
     <li>
-      <div class="when">Jan 2024 – Aug 2024 · Ashesi University</div>
-      <div class="what">ML-Based Electronic Scarecrow (Capstone)</div>
-      <div class="where">YOLOv8 + responsive deterrents for rice-farm bird damage.
-        <a href="https://air.ashesi.edu.gh/items/57e401b2-ed70-42d6-8a82-6d6cb32ddf86" target="_blank">Thesis</a> ·
-        <a href="https://github.com/ADASINOAH/Machine-Learning-Based-Electronic-Scarerow-for-Protecting-Agricultural-yields-Rice-Farm-" target="_blank">Code</a>
+      <div class="when">Jan – Aug 2024 · Ashesi University</div>
+      <div class="what">ML-Based Electronic Scarecrow (BSc thesis)</div>
+      <div class="where">Supervised by Prof. Hyder Ali Segu Mohamed.
+        <a href="https://air.ashesi.edu.gh/items/57e401b2-ed70-42d6-8a82-6d6cb32ddf86" target="_blank" rel="noopener">Thesis</a> ·
+        <a href="https://github.com/ADASINOAH/Machine-Learning-Based-Electronic-Scarerow-for-Protecting-Agricultural-yields-Rice-Farm-" target="_blank" rel="noopener">Code</a>
       </div>
     </li>
     <li>
-      <div class="when">2023 – 2024</div>
-      <div class="what">Three-Phase Automatic Changeover Switch &amp; Microgrid Control</div>
-      <div class="where">Design and implementation of automatic power transfer systems and exploration of hierarchical microgrid control architectures.</div>
-    </li>
-    <li>
-      <div class="when">Jun 2024 – Jul 2024</div>
+      <div class="when">May – Jul 2024</div>
       <div class="what">Cooperative Spectrum Sensing in Cognitive Radio</div>
-      <div class="where">MATLAB &amp; Python simulations of dynamic spectrum management.</div>
+      <div class="where">Implemented cooperative sensing algorithms in MATLAB and Python and simulated how well they detect free channels.</div>
     </li>
     <li>
-      <div class="when">Mar 2024 – Apr 2024</div>
-      <div class="what">CNN for Option-Trading Prediction</div>
-      <div class="where">TensorFlow CNN trained on financial ratios for default probability.</div>
+      <div class="when">2023 – 2024</div>
+      <div class="what">Power Systems: Changeover Switch &amp; Microgrid Control</div>
+      <div class="where">A three-phase automatic changeover switch, published in the Ashesi SEED journal, and a study of hierarchical control for microgrids with renewable sources.</div>
+    </li>
+    <li>
+      <div class="when">Nov – Dec 2021</div>
+      <div class="what">Optimization Using the q-Gradient Method</div>
+      <div class="where">Studied how Jackson's derivative helps gradient search escape local minima, and compared it with genetic algorithms.</div>
     </li>
   </ul>
-  <!-- ====== Add new research thrusts as you start your PhD ======
-  <h2>PhD Research (placeholder)</h2>
-  <p>Brief description of your dissertation topic, advisor, and lab.</p>
-  -->
-  <div class="footer">© <span id="yr"></span> Noah Adasi</div>
-</main></div>
+  <div class="footer">© <span id="yr"></span> Noah Adasi · <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener">GitHub</a></div>
+</main>
+</div>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>

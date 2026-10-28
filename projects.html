@@ -1,95 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Projects - Noah Adasi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects & Ventures - Noah Adasi</title>
+<meta name="description" content="Noah Adasi is an electrical and electronic engineer, researcher and teacher at Ashesi University in Ghana.">
+<meta name="author" content="Noah Adasi">
+<meta property="og:title" content="Projects & Ventures - Noah Adasi">
+<meta property="og:description" content="Noah Adasi is an electrical and electronic engineer, researcher and teacher at Ashesi University in Ghana.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body><div class="layout">
+<body>
+<div class="layout">
 <aside class="sidebar" id="sidebar">
   <img class="avatar" src="assets/profile.jpg" alt="Noah Adasi" onerror="this.style.background='#dcd6cf';this.removeAttribute('src')">
-  <div class="namecard"><div class="name">Noah Adasi</div>
-    <div class="title">Electrical &amp; Electronic Engineer<br>Aspiring PhD Researcher</div>
-    <div class="affil">Ashesi University · Ghana</div></div>
+  <div class="namecard">
+    <div class="name">Noah Adasi</div>
+    <div class="title">Electrical &amp; Electronic Engineer<br>Teaching &amp; Research Assistant</div>
+    <div class="affil">Ashesi University · Ghana</div>
+  </div>
   <div class="socials">
-    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">✉</a>
-    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank">in</a>
-    <a href="https://www.youtube.com/@knowledge_centre" target="_blank">▶</a>
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh" title="Email" aria-label="Email">✉</a>
+    <a href="https://www.linkedin.com/in/noah-adasi" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">in</a>
+    <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">GH</a>
+    <a href="https://www.youtube.com/@knowledge_centre" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube">▶</a>
   </div>
   <ul class="nav">
     <li><a href="index.html" data-page="index">Home</a></li>
     <li><a href="research.html" data-page="research">Research</a></li>
     <li><a href="publications.html" data-page="publications">Publications</a></li>
     <li><a href="teaching.html" data-page="teaching">Teaching</a></li>
-    <li><a href="projects.html" data-page="projects">Projects</a></li>
+    <li><a href="projects.html" data-page="projects">Projects &amp; Ventures</a></li>
     <li><a href="cv.html" data-page="cv">CV</a></li>
     <li><a href="contact.html" data-page="contact">Contact</a></li>
   </ul>
-  <div class="contact-block"><strong>Email</strong><br>
-    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a></div>
+  <div class="contact-block">
+    <strong>Email</strong><br>
+    <a href="mailto:noah.adasi@alumni.ashesi.edu.gh">noah.adasi@alumni.ashesi.edu.gh</a><br><br>
+    <strong>Office</strong><br>
+    Ashesi University<br>1 University Avenue,<br>Berekuso, Ghana
+  </div>
 </aside>
 <button class="menu-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ Menu</button>
 <main class="content">
   <section class="hero reveal" style="border:none;padding:1.4rem 0 1.6rem;display:block">
     <div class="eyebrow">Projects</div>
-    <h1>Projects</h1>
-  <p class="lead">A curated selection of engineering and research projects spanning power systems, signal processing, machine learning, and embedded systems. Each card links to the write-up, code, or thesis where available.</p>
+    <h1>Projects &amp; Ventures</h1>
+    <p class="lead">Engineering projects from my studies and research, and the ventures and community work I'm part of.</p>
   </section>
+
+  <h2>Engineering Projects</h2>
   <div class="grid-2 reveal">
     <div class="card">
       <h3>ML-Based Electronic Scarecrow</h3>
-      <p>YOLOv8 detector + responsive electromechanical deterrents trained on a custom rice-farm bird dataset. Final-year capstone project combining computer vision and low-cost hardware.</p>
-      <div class="tag-row"><span>YOLOv8</span><span>Edge AI</span><span>Agritech</span></div>
-      <p style="margin-top:.6rem"><a href="https://air.ashesi.edu.gh/items/57e401b2-ed70-42d6-8a82-6d6cb32ddf86" target="_blank">Thesis</a> · <a href="https://github.com/ADASINOAH/Machine-Learning-Based-Electronic-Scarerow-for-Protecting-Agricultural-yields-Rice-Farm-" target="_blank">Code</a></p>
+      <p>A YOLOv8 model trained on a custom bird dataset runs fully offline on a Raspberry Pi 4 and triggers servo and sound deterrents in random patterns. 98% detection accuracy. My BSc thesis.</p>
+      <div class="tag-row"><span>YOLOv8</span><span>PyTorch</span><span>Raspberry Pi</span></div>
+      <p class="card-link"><a href="https://air.ashesi.edu.gh/items/57e401b2-ed70-42d6-8a82-6d6cb32ddf86" target="_blank" rel="noopener">Thesis</a> · <a href="https://github.com/ADASINOAH/Machine-Learning-Based-Electronic-Scarerow-for-Protecting-Agricultural-yields-Rice-Farm-" target="_blank" rel="noopener">Code</a></p>
     </div>
     <div class="card">
       <h3>Three-Phase Automatic Changeover Switch</h3>
-      <p>Design and implementation of an automatic power transfer system between ECG and generator using contactors, relays, and timers. Published in the Ashesi Research Seed Journal.</p>
-      <div class="tag-row"><span>Power</span><span>Control</span><span>CAD</span></div>
+      <p>Automatic transfer between grid (ECG) and generator power using contactors, relays and timers. Published in the Ashesi SEED journal.</p>
+      <div class="tag-row"><span>Power</span><span>Control</span></div>
+      <p class="card-link"><a href="https://journal.ashesi.edu.gh/index.php/seed/article/view/91/61" target="_blank" rel="noopener">Article</a></p>
     </div>
     <div class="card">
-      <h3>Microgrid Design &amp; Control</h3>
-      <p>Exploration of hierarchical control architectures, renewable energy integration, and challenges in operating microgrids for improved resilience and sustainability.</p>
-      <div class="tag-row"><span>Power Systems</span><span>Microgrids</span><span>Control</span></div>
+      <h3>Cooperative Spectrum Sensing</h3>
+      <p>Cooperative sensing algorithms for cognitive radio in MATLAB and Python, with simulations of channel detection accuracy.</p>
+      <div class="tag-row"><span>MATLAB</span><span>Python</span><span>Wireless</span></div>
     </div>
     <div class="card">
-      <h3>Cooperative Spectrum Sensing (Cognitive Radio)</h3>
-      <p>MATLAB &amp; Python implementation of cooperative spectrum-sensing algorithms for improved channel detection and dynamic spectrum access.</p>
-      <div class="tag-row"><span>MATLAB</span><span>Python</span><span>Wireless</span><span>5G/6G</span></div>
-    </div>
-    <div class="card">
-      <h3>Digital Signal Processing with PCM</h3>
-      <p>Analysis of sampling, quantization, and encoding stages in MATLAB/Simulink. Quantified effects on signal fidelity and recommended optimized bit depths.</p>
+      <h3>Pulse Code Modulation Analysis</h3>
+      <p>Simulated sampling, quantization and encoding in MATLAB and Simulink, measured their effect on signal fidelity, and recommended bit depths.</p>
       <div class="tag-row"><span>MATLAB</span><span>Simulink</span><span>DSP</span></div>
     </div>
     <div class="card">
-      <h3>CNN for Option Trading</h3>
-      <p>TensorFlow CNN predicting option outcomes from financial ratios with iterative architecture tuning to improve predictive accuracy.</p>
-      <div class="tag-row"><span>TensorFlow</span><span>Deep Learning</span><span>FinML</span></div>
+      <h3>Rectifier &amp; Buck Converter</h3>
+      <p>Converted 230 Vrms AC to a stable 48 V DC supply. The unregulated stage reached 91% efficiency.</p>
+      <div class="tag-row"><span>Power Electronics</span></div>
+    </div>
+    <div class="card">
+      <h3>Microgrid Design &amp; Control</h3>
+      <p>Studied hierarchical control architectures and the challenges of adding renewable sources to microgrids.</p>
+      <div class="tag-row"><span>Power Systems</span><span>Microgrids</span></div>
+    </div>
+    <div class="card">
+      <h3>Optical Heart-Rate Monitor</h3>
+      <p>IR LED and photodiode sensing with analog filtering, amplification and Arduino processing, measuring 68–180 bpm.</p>
+      <div class="tag-row"><span>Instrumentation</span><span>Arduino</span></div>
+    </div>
+    <div class="card">
+      <h3>CNN for Options Trading</h3>
+      <p>A TensorFlow CNN that predicts option outcomes from financial ratios, tuned layer by layer for accuracy.</p>
+      <div class="tag-row"><span>TensorFlow</span><span>Deep Learning</span></div>
     </div>
     <div class="card">
       <h3>q-Gradient Optimization</h3>
-      <p>Investigated the q-gradient method using Jackson’s derivative for unconstrained global optimization and compared performance against genetic algorithms.</p>
+      <p>Jackson's derivative applied to gradient search for global optimization, compared against genetic algorithms.</p>
       <div class="tag-row"><span>Optimization</span><span>Numerical Methods</span></div>
     </div>
     <div class="card">
       <h3>7-Segment Digital Clock</h3>
-      <p>Fully functional digital clock circuit using 7-segment display logic, decade counters, and multiplexers – Digital Systems Design course project.</p>
-      <div class="tag-row"><span>Digital Logic</span><span>Hardware</span></div>
-      <p style="margin-top:.6rem"><a href="http://67.205.187.92/~noah.adasi/" target="_blank">Project page</a></p>
+      <p>A working digital clock built from 7-segment display logic, counters and multiplexers.</p>
+      <div class="tag-row"><span>Digital Logic</span></div>
+      <p class="card-link"><a href="http://67.205.187.92/~noah.adasi/" target="_blank" rel="noopener">Project page</a></p>
     </div>
-    <!-- ===== Add new projects here =====
-    <div class="card">
-      <h3>PROJECT TITLE</h3>
-      <p>One-paragraph description.</p>
-      <div class="tag-row"><span>Tag</span></div>
-      <p style="margin-top:.6rem"><a href="LINK" target="_blank">Code / Paper / Demo</a></p>
-    </div>
-    -->
   </div>
-  <div class="footer">© <span id="yr"></span> Noah Adasi</div>
-</main></div>
+
+  <h2 id="ventures">Ventures</h2>
+  <div class="grid-2 reveal">
+    <div class="card">
+      <h3>HETUS Engineering Limited</h3>
+      <p class="card-sub">Co-Founder &amp; Director · Sunyani · Sep 2024 – present</p>
+      <p>A renewable energy and engineering company founded by Aishetu Abdul Razak. Our work includes solar installations with hands-on training in the Upper East and Bono East Regions alongside the Office of International Comparative Labor Studies at Morehouse College, research on dye-sensitized solar cells made from local materials, and the Yamfo STEM Education Project, supported by the Coca-Cola Fund for Education.</p>
+      <p class="card-link"><a href="https://hetusengineering.vercel.app/" target="_blank" rel="noopener">Website</a></p>
+    </div>
+    <div class="card">
+      <h3>JubileTest</h3>
+      <p class="card-sub">Co-Founder · Jan 2026 – present</p>
+      <p>Many Ghanaian graduates need the GRE or similar exams to study abroad, but full-length practice tests are scarce and expensive. National Service Personnel earn GH₵799 a month. We are building a platform with exam-style tests and clear score reports for about GH₵100 a month. Now in internal testing.</p>
+      <p class="card-link"><a href="https://www.jubiletest.com/" target="_blank" rel="noopener">Website</a></p>
+    </div>
+  </div>
+
+  <h2>Community</h2>
+  <div class="grid-2 reveal">
+    <div class="card">
+      <h3>NPath Foundation</h3>
+      <p class="card-sub">Founder · 2023 – present</p>
+      <p>We mentor bright students from rural Ahafo through exams, scholarships and university applications. One of our students, who faced pressure to marry after school, now studies Economics at Ashesi on a full Mastercard Foundation scholarship. Two others have also gained admission.</p>
+    </div>
+    <div class="card">
+      <h3>STEM for All</h3>
+      <p class="card-sub">Technical Volunteer</p>
+      <p>I help assemble the STEM kits that go out to schools, so students can learn by building.</p>
+    </div>
+  </div>
+  <div class="footer">© <span id="yr"></span> Noah Adasi · <a href="https://github.com/ADASINOAH" target="_blank" rel="noopener">GitHub</a></div>
+</main>
+</div>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>
